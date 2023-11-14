@@ -4,3 +4,5 @@ wget https://download.visualstudio.microsoft.com/download/pr/03a5170a-a4cd-458c-
 
 dotnet nuget add source https://api.nuget.org/v3/index.json -n http://nuget.org
 dotnet tool install --global haveibeenpwned-downloader --version 0.4.14 --ignore-failed-sources
+
+haveibeenpwned-downloader.exe -n pwnedpasswords_ntlm
